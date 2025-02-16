@@ -44,8 +44,8 @@ public class App {
             return date.getMonthValue() == month;
         } catch (Exception e) {
             System.err.println("Invalid date format: " + dateStr);
-            return false;
         }
-    }
 
+        return false;
+    }
 }
